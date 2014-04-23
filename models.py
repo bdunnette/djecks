@@ -1,6 +1,5 @@
 from django.db import models
 
-# Create your models here.
 class Deck(models.Model):
     title = models.CharField(max_length=255, blank=True)
     description = models.TextField(blank=True)
